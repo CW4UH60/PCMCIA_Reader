@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
