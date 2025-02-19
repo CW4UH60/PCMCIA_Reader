@@ -14,13 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 
-$Sheet
-S 1000 1000 8000 6000
-U 5F4A9E10
-F0 "Main" 50
-F1 "pcmcia_usb.sch" 50
-$EndSheet
-
 $Comp
 L MCU_ST_STM32:STM32F407VGT6 U1
 U 1 1 5F4A9E10
@@ -57,35 +50,4 @@ F 3 "" H 2000 3300 50  0000 C CNN
     1    0    0    -1
 $EndComp
 
-$Comp
-L Regulator_Linear:LM1117-3.3 U2
-U 1 1 5F4A9E13
-P 3000 4000
-F 0 "U2" H 3000 4200 50  0000 C CNN
-F 1 "LM1117-3.3" H 3000 4100 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 3000 4000 50  0000 C CNN
-F 3 "" H 3000 3900 50  0000 C CNN
-    1    3000 4000
-    1    0    0    -1
-$EndComp
-
-$Comp
-L Device:C C1
-U 1 1 5F4A9E14
-P 2500 4100
-F 0 "C1" H 2525 4125 50  0000 L CNN
-F 1 "10uF" H 2525 4050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805" H 2500 4000 50  0000 C CNN
-F 3 "" H 2500 3900 50  0000 C CNN
-    1    2500 4100
-    1    0    0    -1
-$EndComp
-
-Wire Wire Line
-    2000 3200 2500 3200
-Wire Wire Line
-    2500 3200 2500 4100
-Wire Wire Line
-    3000 4200 2500 4200
-
-$EndSheet
+$EndSCHEMATIC
