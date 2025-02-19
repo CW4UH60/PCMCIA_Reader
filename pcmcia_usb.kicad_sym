@@ -1,0 +1,8 @@
+(kicad_symbol_lib (version 20220914) (generator kicad)
+  (symbols
+    (symbol "STM32F407VGT6"
+      (property "Reference" "U1")
+      (property "Value" "STM32F407VGT6")
+    )
+  )
+)
