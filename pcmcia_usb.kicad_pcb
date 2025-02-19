@@ -1,0 +1,10 @@
+(kicad_pcb (version 20220914) (generator pcbnew)
+  (general
+    (thickness 1.6)
+  )
+  (layers
+    (0 "F.Cu" signal)
+    (31 "B.Cu" signal)
+    (32 "Edge.Cuts" user)
+  )
+)
