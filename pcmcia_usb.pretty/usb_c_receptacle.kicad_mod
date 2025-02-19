@@ -1,0 +1,3 @@
+(module "USB_C_Receptacle" (layer "F.Cu")
+  (fp_text reference "J1" (at 0 0))
+)
